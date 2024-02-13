@@ -8,7 +8,7 @@
 
 .main{
     position:relative;
-    background-image: url("/netflix_clone/asssets/images/bg.jpg");
+    background-image: url("/asssets/images/bg.jpg");
     background-position: center cover;
     background-repeat: no-repeat;
     height: 100vh;
