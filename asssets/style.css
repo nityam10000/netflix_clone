@@ -11,13 +11,13 @@
     background-image: url("/asssets/images/bg.jpg");
     background-position: center cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
 }
 
 .main .box{
     box-shadow: inset 0 0;
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     opacity: 0.44;
     top: 0;
@@ -46,11 +46,8 @@ nav button{
     border-radius: 5px;
 }
 .hero{
-    padding-left:100px;
-    padding-right: 100px;
-    padding-bottom: 500px;
-    margin-bottom: 20px;
-    height: 100%;
+    margin-top: 200px;
+    padding: 0 100px 230px 100px;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -104,4 +101,30 @@ nav button{
     font-weight: 500;
     background-color: rgb(248, 16, 28);
     border-radius: 5px;
+}
+.tv-box{
+    position: relative;
+    z-index: 1;
+    margin-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+.text .bold-head{
+    font-weight: 600;
+}
+.text .small-text{
+    font-weight: 400;
 }
