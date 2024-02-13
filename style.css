@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    position:relative;
+    background-image: url("/asssets/images/bg.jpg");
+    background-position: center cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.main .box{
+    box-shadow: inset black -1px -1px 20px 100px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.44;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    position: relative;
+    height: 92px;
+    max-width: 100vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+nav img{
+    width: 180px;
+}
+nav button{
+    width: 100px;
+    border: none;
+    padding:1px;
+    font-family: 'Martel Sans', sans-serif;
+    color:white;
+    background-color: rgb(248, 16, 28);
+    border-radius: 5px;
+}
+.hero{
+    margin-top: 200px;
+    padding: 0 100px 230px 100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.a1{
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+.a2{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.a3{
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+.email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    
+}
+.email input{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding:6px;
+    width: 507px;
+    height: 50px;
+    background-color: rgba(132, 181, 255, 0.154);
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+}
+.email button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    border: none;
+    padding: 5px;
+    font-family: 'Martel Sans', sans-serif;
+    color:white;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(248, 16, 28);
+    border-radius: 5px;
+}
+.tv-box{
+    position: relative;
+    z-index: 1;
+    margin-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+.text .bold-head{
+    font-weight: 600;
+}
+.text .small-text{
+    font-weight: 400;
+}
