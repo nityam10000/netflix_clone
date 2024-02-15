@@ -39,6 +39,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     z-index: 10;
+    gap: 226px;
+
 }
 nav img{
     width: 180px;
