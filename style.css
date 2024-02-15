@@ -150,10 +150,12 @@ nav button{
 }
 
 .text .bold-head{
-    font-size: 50px;
-    font-weight: 700;
+    line-height: 67px;
+    font-size: 60px;
+    font-weight: 600;
 }
 .text .small-text{
-    font-size: 30px;
+    line-height: 38px;
+    font-size: 27px;
     font-weight: 400;
 }
