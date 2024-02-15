@@ -121,10 +121,13 @@ nav button{
     text-align: left;
     color: white;
     font-family: 'Martel Sans', sans-serif;
+    padding-left: 30px;
 }
 .text .bold-head{
+    font-size: 60px;
     font-weight: 600;
 }
 .text .small-text{
+    font-size: 30px;
     font-weight: 400;
 }
