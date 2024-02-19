@@ -118,6 +118,7 @@ nav button{
     background-color: rgb(40, 39, 39);
 }
 .tv-box{
+    height: 26rem;
     position: relative;
     z-index: 1;
     margin:auto;
@@ -138,7 +139,7 @@ nav button{
     position: absolute;
     right: 59px;
     width: 296px;
-    top: 81px;
+    top: 181px;
 }
 .text{
     display: flex;
@@ -158,4 +159,50 @@ nav button{
     line-height: 38px;
     font-size: 27px;
     font-weight: 400;
+}
+.download-Box{
+    padding: 60px;
+    height: 26rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    justify-items: center; 
+    gap: 2px;
+}
+
+.strange-things{
+   display: grid;
+   grid-template-rows: 50% 50%;
+}
+.strange-things #eleven{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 	300 px;
+    height: 400px;
+}
+.str-download{
+    border-radius: 20px;
+    padding: 5px;
+    height: 98px;
+    width: 16rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(92, 91, 91);
+    position: absolute;
+    top: 46%;
+    left: 25%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    box-shadow: 0px 0px 20px 10px rgb(0 0 0);
+}
+#img-1{
+    width: 57px;
+    height: 80px;
+}
+#gif-1{
+    width: 50px;
+    height: 50px;
 }
