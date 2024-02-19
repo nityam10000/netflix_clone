@@ -248,3 +248,35 @@ nav button{
     width: 311px;
     z-index: -1;
 }
+.kids-sec{
+    position: relative;
+    height: 26rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.kid-txt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-right: 120px;
+}
+.kid-txt :nth-child(1){
+    font-size:60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.kid-txt :nth-child(2){
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.kid-img img{
+    height: 371px;
+    width: 495px;
+    margin-left: 150px;
+}
