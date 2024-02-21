@@ -82,7 +82,6 @@ nav button{
 }
 .email{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     gap: 5px;
     
@@ -99,9 +98,6 @@ nav button{
     font-weight: 900;
 }
 .email button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width:300px;
     border: none;
     padding: 5px;
@@ -287,19 +283,36 @@ nav button{
     align-items: center;
     justify-items: center;
     gap: 10px;
-    grid-template-rows: 7();
     color: white;
+    padding-bottom: 80px;
 }
 .freq-que span{
     font-size: 60px;
     font-weight: 900;
 }
-.freq-que div{
+.ano{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-top:40px;
+}
+.que{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 30px;
     font-weight: 400;
     background-color: #8080805c;
     width: 48rem;
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
+}
+.que span{
+    font-weight: 100;
+    font-size: 60px;
+}
+
+footer{
+    color: white;
+    display: grid;
+    grid-area: ;
 }
