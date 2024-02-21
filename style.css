@@ -314,5 +314,23 @@ nav button{
 footer{
     color: white;
     display: grid;
-    grid-area: ;
+    grid-template-areas: "que que que que"
+                         "cont cont cont cont"
+                         "ola ola ola ola"
+                         "alo alo alo alo";
+}
+footer p{
+    grid-area: "que";
+}
+.item1{
+    grid-area: "cont";
+}
+.item2{
+    grid-area: "cont";
+}
+.item3{
+    grid-area: "cont";
+}
+.item4{
+    grid-area: "cont";
 }
