@@ -312,25 +312,44 @@ nav button{
 }
 
 footer{
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    height: 26rem;
+}
+.foot1{
+    font-size: 20px;
+    min-width: 60vw;
+    line-height: 70px;
+    margin-top: 90px;
+}
+.footer{
     display: grid;
-    grid-template-areas: "que que que que"
-                         "cont cont cont cont"
-                         "ola ola ola ola"
-                         "alo alo alo alo";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 70px;
+    line-height: 40px;
 }
-footer p{
-    grid-area: "que";
+.footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
 }
-.item1{
-    grid-area: "cont";
+.footer ul{
+    text-decoration: none;
+    list-style: none;
 }
-.item2{
-    grid-area: "cont";
-}
-.item3{
-    grid-area: "cont";
-}
-.item4{
-    grid-area: "cont";
+.foot1 button{
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    padding: 7px;
+    min-width: 6rem;
+    background-color: rgba(32, 32, 32, 0.514);
+    border: 1px solid rgb(172, 172, 172);
 }
